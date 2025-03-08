@@ -23,6 +23,7 @@ dotenv.config();
 
 app.use('/api/users', users);
 
+
 app.listen(port, () => {
     console.log('Server is running on port ' + port);
 });
